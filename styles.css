@@ -1,6 +1,6 @@
 header {
   margin: -10px auto;
-  padding: 0px 120px;
+  padding: 0px 220px;
   background: #ffffff;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
 }
@@ -8,7 +8,7 @@ header {
   padding: 20px 20px 20px 32px;
   display: flex;
 }
-.logo {
+.header__logo {
   margin: 15px 0px;
   flex-grow: 1;
   display: flex;
@@ -53,11 +53,59 @@ header {
   padding: 10px 25px 12px;
   align-self: center;
 }
-.header__navigation__list__item__button {
+button {
   background: black;
   padding: 10px 25px 12px;
   border-radius: 5px;
   text-transform: uppercase;
   color: white;
   letter-spacing: 2px;
+}
+.section__intro {
+  padding: 110px 236px 100px;
+  font-family: "Poppins", sans-serif;
+}
+.section__intro__container {
+  padding: 45px 670px 45px 78px;
+  position: relative;
+}
+
+.section__logo {
+  display: flex;
+  align-items: center;
+}
+.section__logo__sign {
+  font-size: 30px;
+}
+.section__logo__description {
+  margin-right: 20px;
+  font-size: 30px;
+  letter-spacing: -3px;
+}
+.section__intro__title {
+  margin: 11px 0px 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+}
+.section__intro__info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.section__intro__buttons {
+  margin: 20px 0px 10px;
+}
+.section__intro__picture {
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 690px;
+}
+.section__intro__picture.-middle {
+  position: absolute;
+  top: 22px;
+  left: 717px;
 }
