@@ -1,6 +1,6 @@
 header {
   margin: -10px auto;
-  padding: 0px 220px;
+  padding: 0px 120px;
   background: #ffffff;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
 }
@@ -47,7 +47,6 @@ header {
   line-height: 24px;
   color: #666;
   display: flex;
-  gap: 20px;
 }
 .header__navigation__list__item {
   padding: 10px 25px 12px;
@@ -62,8 +61,9 @@ button {
   letter-spacing: 2px;
 }
 .section__intro {
-  padding: 110px 236px 100px;
+  padding: 110px 136px 100px;
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 .section__intro__container {
   padding: 45px 670px 45px 78px;
@@ -99,7 +99,6 @@ button {
   margin: 20px 0px 10px;
 }
 .section__intro__picture {
-  overflow: hidden;
   position: absolute;
   top: 0px;
   left: 690px;
@@ -108,4 +107,97 @@ button {
   position: absolute;
   top: 22px;
   left: 717px;
+}
+
+.section__features {
+  background-color: black;
+  padding: 100px 120px;
+}
+.section__features__container {
+  padding: 0px 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+}
+.section__features__title {
+  margin: 0px 457px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.section__features__info {
+  margin: 5px 252px 45px;
+
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+.section__features__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.section__features__block {
+  padding: 40px 66px 0px;
+  background: #ffffff;
+  border-radius: 20px;
+  position: relative;
+}
+.section__features__block__top {
+  display: flex;
+  justify-content: center;
+}
+.section__features__block img:nth-child(2) {
+  position: absolute;
+  top: 55px;
+  left: 83px;
+}
+.section__features__block img:nth-child(3) {
+  position: absolute;
+  top: 40px;
+  left: 66px;
+}
+.section__features__block__bottom {
+  padding: 48px 47px 40px;
+  height: 197px;
+  background: #f2f2f2;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 20px 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.section__features__block__title {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #0278ed;
+}
+.section__features__block__title.-calendar {
+  color: #0278ed;
+}
+.section__features__block__title.-lists {
+  color: #ff5437;
+}
+.section__features__block__title.-varied {
+  color: #ff9209;
+}
+.section__features__block__title.-split {
+  color: #e738ce;
+}
+.section__features__block__title.-uploads {
+  color: #00c6df;
+}
+.section__features__block__title.-focus {
+  color: #b25df8;
+}
+.section__features__block__description {
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #222222;
 }
