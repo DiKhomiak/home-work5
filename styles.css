@@ -256,10 +256,27 @@ button {
 .section__technology__picture {
   position: absolute;
   top: 0px;
-  left: 690px;
+  left: 590px;
 }
 .section__technology__picture.-middle {
   position: absolute;
   top: 22px;
-  left: 717px;
+  left: 617px;
+}
+.section__technology.-speed {
+  background: #f2f2f2;
+}
+.section__technology__container.-speed {
+  padding: 77px 78px 77px 600px;
+  position: relative;
+}
+.section__technology.-speed img {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}
+.section__technology.-speed img.-middle {
+  position: absolute;
+  top: 21px;
+  left: 128px;
 }
