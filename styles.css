@@ -222,3 +222,44 @@ button {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+.section__technology {
+  padding: 100px 136px 100px;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+.section__technology__container {
+  padding: 77px 600px 77px 78px;
+  position: relative;
+}
+.section__technology__main {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.section__technology__title {
+  margin: 10px 0px 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+}
+.section__technology__info {
+  padding-right: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.section__technology__picture {
+  position: absolute;
+  top: 0px;
+  left: 690px;
+}
+.section__technology__picture.-middle {
+  position: absolute;
+  top: 22px;
+  left: 717px;
+}
