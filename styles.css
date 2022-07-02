@@ -313,3 +313,80 @@ button {
 .section__dark__logo__switcher {
   margin-top: 33px;
 }
+.section__pricing {
+  padding: 100px 120px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  background: #ffffff;
+}
+.section__pricing__container {
+}
+.section__pricing__text {
+  margin: 0px 300px 40px;
+}
+.section__pricing__blocks {
+  display: flex;
+  gap: 20px;
+}
+.section__pricing__text p:first-child {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.section__pricing__text p:nth-child(2) {
+  font-size: 32px;
+  line-height: 36px;
+  margin: 5px 0px 14px;
+}
+.section__pricing__text p:nth-child(3) {
+  font-size: 18px;
+  line-height: 24px;
+  color: #666666;
+}
+.section__pricing__blocks div {
+  background: #f2f2f2;
+  border-radius: 20px;
+  padding: 50px 40px;
+  width: 33%;
+}
+.section__pricing__blocks__standart {
+  color: #0278ed;
+}
+.section__pricing__blocks__standart button {
+  background-color: #0278ed;
+  border-color: #0278ed;
+}
+.section__pricing__blocks__premium {
+  color: #ff5437;
+}
+.section__pricing__blocks__premium button {
+  background-color: #ff5437;
+  border-color: #ff5437;
+}
+.section__pricing__blocks__lifetime {
+  color: #ff9209;
+}
+.section__pricing__blocks__lifetime button {
+  background-color: #ff9209;
+  border-color: #ff9209;
+}
+.section__pricing__blocks div p:nth-child(1) {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.section__pricing__blocks div p:nth-child(2) {
+  font-size: 108px;
+  line-height: 124px;
+  letter-spacing: 8px;
+}
+.section__pricing__blocks div p:nth-child(3) {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222222;
+}
