@@ -280,3 +280,36 @@ button {
   top: 21px;
   left: 128px;
 }
+.section__dark {
+  background-color: #222222;
+  padding: 100px 420px 140px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+.section__dark p:first-child {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.section__dark p {
+  font-size: 32px;
+  line-height: 36px;
+  margin: 5px 0px 14px;
+}
+.section__dark p:nth-child(3) {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0px 11px 30px;
+}
+
+.section__dark hr {
+  background: #e5e5e5;
+  height: 2px;
+}
+.section__dark__logo__switcher {
+  margin-top: 33px;
+}
