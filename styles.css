@@ -62,7 +62,7 @@ button {
 }
 main {
   margin: 0px auto;
-  max-width: 1450px;
+  max-width: 1440px;
 }
 .section__intro {
   padding: 110px 136px 100px;
@@ -495,4 +495,41 @@ main {
   position: absolute;
   left: 15px;
   top: 15px;
+}
+.section__faq {
+  background: #e5e5e5;
+  padding: 110px 120px 100px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+}
+.section__faq__title {
+  margin: 0px 584px 40px 16px;
+}
+.section__faq__title p:first-child {
+  font-size: 32px;
+  line-height: 36px;
+}
+.section__faq__title p:nth-child(2) {
+  font-size: 15px;
+  line-height: 20px;
+}
+.section__faq__questions {
+  margin: 0px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px 16px;
+}
+.section__faq__questions div {
+  padding: 0px 4px 10px 0px;
+  width: 49%;
+}
+.section__faq__questions div p:first-child {
+  font-size: 18px;
+  line-height: 28px;
+}
+.section__faq__questions div p:nth-child(2) {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 24px;
 }
