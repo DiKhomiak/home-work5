@@ -321,8 +321,7 @@ button {
   text-align: center;
   background: #ffffff;
 }
-.section__pricing__container {
-}
+
 .section__pricing__text {
   margin: 0px 300px 40px;
 }
@@ -389,4 +388,63 @@ button {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #222222;
+}
+.section__testimonials {
+  padding: 100px 120px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  background: #f2f2f2;
+}
+.section__testimonials__text {
+  margin: 0px 300px 40px;
+}
+.section__testimonials__blocks {
+  display: flex;
+  gap: 20px;
+}
+.section__testimonials__text p:first-child {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.section__testimonials__text p:nth-child(2) {
+  font-size: 32px;
+  line-height: 36px;
+  margin: 5px 0px 14px;
+}
+.section__testimonials__text p:nth-child(3) {
+  font-size: 18px;
+  line-height: 24px;
+  color: #666666;
+}
+.section__testimonials__blocks div {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px 40px;
+  width: 33%;
+  position: relative;
+}
+.customer__feedback {
+  font-size: 16px;
+  line-height: 24px;
+  height: 50%;
+}
+.customer__name {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1b1a1a;
+}
+.customer__company {
+  font-size: 14px;
+  line-height: 20px;
+  color: #1b1a1a;
+}
+.customer__photo {
+  position: absolute;
+  left: 75px;
+  bottom: 30px;
 }
