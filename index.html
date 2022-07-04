@@ -17,15 +17,23 @@
         <div class="logo header__logo">
           <span class="logo__sign header__logo__sign">(H)</span>
           <span class="logo__description header__logo__description"
-            >H (a p p) y</span
-          >
+            >H (a p p) y
+          </span>
         </div>
         <nav class="header__navigation">
           <ul class="header__navigation__list">
-            <li class="header__navigation__list__item">Features</li>
-            <li class="header__navigation__list__item">Pricing</li>
-            <li class="header__navigation__list__item">Testimonials</li>
-            <li class="header__navigation__list__item">Instructions</li>
+            <li class="header__navigation__list__item -link">
+              <a href="#features">Features</a>
+            </li>
+            <li class="header__navigation__list__item -link">
+              <a href="#pricing">Pricing</a>
+            </li>
+            <li class="header__navigation__list__item -link">
+              <a href="#testimonials">Testimonials</a>
+            </li>
+            <li class="header__navigation__list__item -link">
+              <a href="#instructions">Instructions</a>
+            </li>
             <li class="header__navigation__list__item">
               <button class="header__navigation__list__item__button">
                 Get template
@@ -55,24 +63,26 @@
               <button>Read more</button>
             </div>
           </div>
-          <img
-            class="section__intro__picture -bottom"
-            src="./assets/intro/bottom.png"
-            alt="phone"
-          />
-          <img
-            class="section__intro__picture -middle"
-            src="./assets/intro/middle.png"
-            alt="phone"
-          />
-          <img
-            class="section__intro__picture -top"
-            src="./assets/intro/top.png"
-            alt="phone"
-          />
+          <div class="section__intro__phone">
+            <img
+              class="section__intro__picture -bottom"
+              src="./assets/intro/bottom.png"
+              alt="phone"
+            />
+            <img
+              class="section__intro__picture -middle"
+              src="./assets/intro/middle.png"
+              alt="phone"
+            />
+            <img
+              class="section__intro__picture -top"
+              src="./assets/intro/top.png"
+              alt="phone"
+            />
+          </div>
         </div>
       </section>
-      <section class="section__features">
+      <section class="section__features" id="features">
         <div class="section__features__container">
           <p class="section__features__title">Features</p>
           <p class="section__features__info">
@@ -82,7 +92,7 @@
             <div class="section__features__block">
               <div class="section__features__block__top">
                 <img src="./assets/features/bottom.png" alt="" />
-                <img src="./assets/features/middle 1.png" alt="" />
+                <img src="./assets/features/middle1.png" alt="" />
                 <img src="./assets/features/top.png" alt="" />
               </div>
 
@@ -100,7 +110,7 @@
             <div class="section__features__block">
               <div class="section__features__block__top">
                 <img src="./assets/features/bottom.png" alt="" />
-                <img src="./assets/features/middle 2.png" alt="" />
+                <img src="./assets/features/middle2.png" alt="" />
                 <img src="./assets/features/top.png" alt="" />
               </div>
 
@@ -116,7 +126,7 @@
             <div class="section__features__block">
               <div class="section__features__block__top">
                 <img src="./assets/features/bottom.png" alt="" />
-                <img src="./assets/features/middle 3.png" alt="" />
+                <img src="./assets/features/middle3.png" alt="" />
                 <img src="./assets/features/top.png" alt="" />
               </div>
 
@@ -134,7 +144,7 @@
             <div class="section__features__block">
               <div class="section__features__block__top">
                 <img src="./assets/features/bottom.png" alt="" />
-                <img src="./assets/features/middle 4.png" alt="" />
+                <img src="./assets/features/middle4.png" alt="" />
                 <img src="./assets/features/top.png" alt="" />
               </div>
 
@@ -152,7 +162,7 @@
             <div class="section__features__block">
               <div class="section__features__block__top">
                 <img src="./assets/features/bottom.png" alt="" />
-                <img src="./assets/features/middle 5.png" alt="" />
+                <img src="./assets/features/middle5.png" alt="" />
                 <img src="./assets/features/top.png" alt="" />
               </div>
 
@@ -168,7 +178,7 @@
             <div class="section__features__block">
               <div class="section__features__block__top">
                 <img src="./assets/features/bottom.png" alt="" />
-                <img src="./assets/features/middle 6.png" alt="" />
+                <img src="./assets/features/middle6.png" alt="" />
                 <img src="./assets/features/top.png" alt="" />
               </div>
 
@@ -220,7 +230,7 @@
           />
           <img
             class="section__technology__picture -middle"
-            src="./assets/intro/middle 2.png"
+            src="./assets/intro/middle2.png"
             alt="phone"
           />
           <img
@@ -283,7 +293,7 @@
           />
         </div>
       </section>
-      <section class="section__pricing">
+      <section class="section__pricing" id="pricing">
         <div class="section__pricing__container">
           <div class="section__pricing__text">
             <p>Pricing</p>
@@ -315,7 +325,7 @@
           </div>
         </div>
       </section>
-      <section class="section__testimonials">
+      <section class="section__testimonials" id="testimonials">
         <div class="section__testimonials__container">
           <div class="section__testimonials__text">
             <p>Testimonials</p>
@@ -367,7 +377,7 @@
           </div>
         </div>
       </section>
-      <section class="section__download">
+      <section class="section__download" id="instructions">
         <div class="section__download__container">
           <p>Download</p>
           <p>It's available right now!</p>
@@ -376,8 +386,8 @@
             in convallis risus egestas non.
           </p>
           <button>
-            <h6>Download on the</h6>
-            <h2>App Store</h2>
+            <span>Download on the</span><br />
+            <span>App Store</span>
             <img src="./assets/social/apple.png" alt="app" />
           </button>
         </div>

@@ -1,5 +1,6 @@
 header {
   margin: -10px auto;
+  max-width: 1440px;
   padding: 0px 120px;
   background: #ffffff;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
@@ -38,7 +39,18 @@ header {
   font-weight: 900;
   letter-spacing: -3px;
 }
-
+.logo__description:hover {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(
+    134.6deg,
+    #d140f8 -3.11%,
+    #788ce9 33.98%,
+    #37c2de 66.35%,
+    #1eccae 98.49%
+  );
+}
 .header__navigation__list {
   padding: 5px;
   font-family: "Poppins", sans-serif;
@@ -48,10 +60,19 @@ header {
   color: #666;
   display: flex;
 }
+.header__navigation__list__item > a {
+  text-decoration: none;
+  color: #666666;
+}
+
 .header__navigation__list__item {
   padding: 10px 25px 12px;
   align-self: center;
 }
+.header__navigation__list__item.-link:hover {
+  background-color: rgba(173, 173, 173, 0.26);
+}
+
 button {
   background: black;
   padding: 10px 25px 12px;
@@ -59,6 +80,14 @@ button {
   text-transform: uppercase;
   color: white;
   letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: #fff;
+  color: black;
+}
+button a:hover {
+  color: black;
 }
 main {
   margin: 0px auto;
@@ -106,11 +135,19 @@ main {
   position: absolute;
   top: 0px;
   left: 690px;
+  transform: translate(0%, 0%);
 }
 .section__intro__picture.-middle {
   position: absolute;
   top: 22px;
   left: 717px;
+}
+.section__intro__phone:hover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+  transform: scale(1.1) translate(-50px, -50px);
 }
 
 .section__features {
@@ -481,20 +518,22 @@ main {
   position: relative;
   padding: 13px 17px 10px 62px;
 }
-.section__download button h6 {
+.section__download button span:first-child {
   font-size: 12px;
   line-height: 15px;
+  font-weight: 700;
   text-transform: none;
 }
-.section__download button h2 {
+.section__download button span:nth-child(2) {
   font-size: 25px;
   line-height: 30px;
   text-transform: none;
+  font-weight: 700;
 }
 .section__download button img {
   position: absolute;
   left: 15px;
-  top: 15px;
+  top: 10px;
 }
 .section__faq {
   background: #e5e5e5;
