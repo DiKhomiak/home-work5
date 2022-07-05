@@ -374,6 +374,21 @@ main {
 }
 .section__dark__logo__switcher {
   margin-top: 33px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.section__dark__logo__switcher p {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.section__dark__logo__switcher__sun:hover {
+  filter: brightness(0) saturate(100%) invert(86%) sepia(56%) saturate(2144%)
+    hue-rotate(347deg) brightness(94%) contrast(96%);
+}
+.section__dark__logo__switcher__moon:hover {
+  filter: brightness(0) saturate(100%) invert(23%) sepia(94%) saturate(3918%)
+    hue-rotate(221deg) brightness(94%) contrast(95%);
 }
 .section__pricing {
   padding: 100px 120px;
@@ -539,6 +554,9 @@ main {
   position: relative;
   padding: 13px 17px 10px 62px;
 }
+.section__download button:hover {
+  background-color: #666;
+}
 .section__download button span:first-child {
   font-size: 12px;
   line-height: 15px;
@@ -606,6 +624,11 @@ footer {
   margin: 0px 9px;
   padding: 10px;
   font-size: 30px;
+}
+.footer__logo__sign:hover {
+  animation: infinite;
+  transform: rotate(360deg);
+  transition: 2s;
 }
 .footer__logo__description {
   font-size: 22px;
