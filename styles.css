@@ -50,6 +50,7 @@ header {
     #37c2de 66.35%,
     #1eccae 98.49%
   );
+  cursor: pointer;
 }
 .header__navigation__list {
   padding: 5px;
@@ -71,6 +72,7 @@ header {
 }
 .header__navigation__list__item.-link:hover {
   background-color: rgba(173, 173, 173, 0.26);
+  cursor: pointer;
 }
 
 button {
@@ -85,9 +87,11 @@ button {
 button:hover {
   background-color: #fff;
   color: black;
+  cursor: pointer;
 }
 button a:hover {
   color: black;
+  cursor: pointer;
 }
 main {
   margin: 0px auto;
@@ -149,6 +153,7 @@ main {
   left: 0px;
   transition: 1s;
   transform: scale(1.1) translate(-50px, -50px);
+  cursor: pointer;
 }
 
 .section__features {
@@ -185,7 +190,7 @@ main {
 }
 
 .section__features__info__sign:hover {
-  transform: rotateY(360deg);
+  transform: rotateX(360deg);
   transition: 2s;
 }
 
@@ -232,6 +237,7 @@ main {
 .section__features__block__logo img:hover {
   border-radius: 50px;
   transition: 0.5s;
+  cursor: pointer;
 }
 .section__features__block__title {
   font-size: 24px;
@@ -385,11 +391,14 @@ main {
 .section__dark__logo__switcher__sun:hover {
   filter: brightness(0) saturate(100%) invert(86%) sepia(56%) saturate(2144%)
     hue-rotate(347deg) brightness(94%) contrast(96%);
+  cursor: pointer;
 }
 .section__dark__logo__switcher__moon:hover {
   filter: brightness(0) saturate(100%) invert(23%) sepia(94%) saturate(3918%)
     hue-rotate(221deg) brightness(94%) contrast(95%);
+  cursor: pointer;
 }
+
 .section__pricing {
   padding: 100px 120px;
   font-family: "Poppins";
@@ -556,6 +565,7 @@ main {
 }
 .section__download button:hover {
   background-color: #666;
+  cursor: pointer;
 }
 .section__download button span:first-child {
   font-size: 12px;
@@ -619,17 +629,40 @@ footer {
 }
 .footer__logo {
   margin: 0px 524px 0px;
+  position: relative;
 }
 .footer__logo__sign {
-  margin: 0px 9px;
-  padding: 10px;
-  font-size: 30px;
+  width: 75px;
+  height: 75px;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__logo img {
+  width: 40px;
+  position: absolute;
+  top: 20px;
+  left: 27px;
 }
 .footer__logo__sign:hover {
-  animation: infinite;
-  transform: rotate(360deg);
-  transition: 2s;
+  color: rgba(0, 0, 0, 0);
+  animation-name: spin;
+  animation-duration: 1500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  cursor: pointer;
 }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .footer__logo__description {
   font-size: 22px;
 }
